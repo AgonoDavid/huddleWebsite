@@ -1,0 +1,425 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 2px solid black; */
+}
+/*header style*/
+header {
+  /* height: 610px; */
+  background-image: url(huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-desktop.svg);
+  background-color: rgba(78, 153, 178, 0.233);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 70px 0px 80px;
+}
+.nav_button {
+  background-color: white;
+  color: rgba(78, 153, 178, 0.233);
+  border-radius: 60px;
+  border: none;
+}
+.nav_button button {
+  padding: 3px 30px 3px 30px;
+}
+
+.headbody {
+  display: flex;
+  /* gap: 30px; */
+}
+.headbodyleft {
+  padding-top: 120px;
+  padding-left: 70px;
+  line-height: 1.4;
+  /* border: 2px solid red; */
+}
+.headbody h3 {
+  font-size: 40px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  color: rgb(23, 34, 23);
+  width: 100%;
+}
+.headbodyleft p {
+  width: 100%;
+  padding-bottom: 30px;
+  color: rgb(23, 34, 23);
+}
+.button_get_started {
+  width: 100%;
+}
+.headbodyleft button {
+  background-color: hsl(322, 100%, 66%);
+  border: none;
+  color: white;
+  padding: 15px 40px 15px 40px;
+  border-radius: 30px;
+}
+.headbodyright {
+  width: 100%;
+}
+
+.headbodyright img {
+  /* width: 645px; */
+  width: 98%;
+  height: 460px;
+  padding-top: 30px;
+  /* padding-right: 10px; */
+}
+/*Mainbody styling*/
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  /* margin-top: 140px; */
+  max-width: 1000px;
+  margin: 90px auto;
+  /* margin: 120px 90px 90px; */
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.247);
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.firstsectionleft {
+  padding-top: 100px;
+  width: 400px;
+  /* padding-left: 90px; */
+  line-height: 1.7;
+}
+.firstsection h3 {
+  font-size: 30px;
+  color: rgb(23, 34, 23);
+}
+.firstsection p {
+  color: rgb(23, 34, 23);
+}
+.firstsection img {
+  width: 100%;
+  height: 300px;
+  /* padding-right: 120px; */
+  padding-top: 10px;
+}
+/*secondsection styling*/
+.secondsection {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1000px;
+  margin: 90px auto;
+  /* margin-top: 140px; */
+  /* margin: 120px 90px 90px; */
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.247);
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.secondsection img {
+  width: 100%;
+  height: 300px;
+  /* padding-left: 90px; */
+  padding-top: 10px;
+}
+.secondsectionright {
+  padding-top: 80px;
+  width: 400px;
+  /* padding-right: 90px; */
+  line-height: 1.7;
+  padding-bottom: 20px;
+}
+.secondsection h3 {
+  font-size: 30px;
+  color: rgb(23, 34, 23);
+}
+.secondsection p {
+  color: rgb(23, 34, 23);
+}
+/*third section styling*/
+.thirdsection {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 90px auto;
+  /* margin-top: 140px;
+  margin: 120px 90px 90px; */
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.247);
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.thirdsectionleft {
+  padding-top: 80px;
+  width: 400px;
+  padding-left: 90px;
+  line-height: 1.7;
+}
+.thirdsection h3 {
+  font-size: 30px;
+  color: rgb(23, 34, 23);
+}
+.thirdsection p {
+  color: rgb(23, 34, 23);
+}
+.thirdsectionright{
+  width: 100%;
+}
+.thirdsectionright img {
+  width: 100%;
+  /* padding-right: 90px; */
+  padding-top: 10px;
+}
+/*Fourthsection styling*/
+.fourthsection {
+  text-align: center;
+  /* margin: 0px 350px 0px 350px; */
+  line-height: 2;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.247);
+  max-width: 900px;
+  margin: auto;
+  padding: 50px 10px 50px 10px;
+  border-radius: 15px;
+  position: absolute;
+  background-color: white;
+  z-index: 1;
+  bottom: 300px;
+}
+.fourthsection h3 {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.fourthsection button {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  border: none;
+  padding: 17px 65px 17px 66px;
+  border-radius: 30px;
+}
+/* Footer styling*/
+footer {
+  background-color: hsl(192, 100%, 9%);
+  /* display: flex; */
+  /* gap: 140px; */
+  /* padding-top: 150px; */
+  position: relative;
+  margin-top: 250px;
+}
+.footerlogo img {
+  padding-bottom: 28px;
+}
+.footerleft {
+  /* padding-left: 80px; */
+  width: 40%;
+}
+.location {
+  width: 100%;
+}
+.location p {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+.location img {
+  height: 23px;
+}
+.phone p {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+.phone img {
+  height: 18px;
+}
+.mail p {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+.mail img {
+  height: 18px;
+  width: 16px;
+}
+.footersecondsection {
+  padding-top: 60px;
+  line-height: 2.5;
+  font-size: 15px;
+}
+.footerthirdsection {
+  padding-top: 60px;
+  line-height: 2.5;
+  font-size: 15px;
+}
+.icons {
+  padding-top: 65px;
+}
+.copyright {
+  width: 100%;
+  padding-top: 120px;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.655);
+}
+.footer_margin {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 120px;
+}
+
+/* Media query styling for responsive design */
+/* header responsive styling */
+@media (min-width: 350px) and (max-width: 500px) {
+  
+
+ header{
+  background-image: url(/huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-mobile.svg);
+  background-color: none;
+ } 
+  nav {
+    padding-left: 20px;
+    gap: 30px;
+  }
+  nav img {
+    width: 130px;
+  }
+  .nav_button button {
+    padding: 3px 8px 3px 8px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: white;
+    /* color: rgba(78, 153, 178, 0.233); */
+    border: none;
+  }
+  .nav_button {
+    padding-right: 0px;
+  }
+  .headbody {
+    flex-direction: column;
+    max-width: 380px;
+    margin: auto;
+  }
+  .headbody h3 {
+    text-align: center;
+    width: 100%;
+    font-size: 36px;
+    color: rgb(23, 34, 23);
+  }
+  .headbodyleft {
+    padding-left: 0px;
+  }
+  .headbody p {
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    color: rgb(23, 34, 23);
+  }
+  .headbodyleft button {
+    padding: 7px 20px 7px 20px;
+  }
+  .button_get_started {
+    text-align: center;
+  }
+  .headbodyright {
+    width: 100%;
+  }
+  .headbodyright img {
+    width: 100%;
+    height: 280px;
+  }
+  /* mainbody responsive styling */
+  main :nth-of-type(odd) {
+    flex-direction: column-reverse;
+  }
+  .firstsection {
+    flex-direction: column;
+    max-width: 380px;
+    margin: 60px auto;
+  }
+  .firstsectionleft {
+    padding-left: 0px;
+    padding-top: 0px;
+    max-width: 320px;
+    margin: auto;
+  }
+  .firstsectionright {
+    width: 100%;
+    max-width: 320px;
+    margin: auto;
+  }
+  .text_style_rd {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .secondsection {
+    flex-direction: column;
+    max-width: 380px;
+    margin: 60px auto;
+  }
+  .secondsectionleft {
+    width: 100%;
+    max-width: 320px;
+    margin: auto;
+  }
+  .secondsectionright {
+    padding-left: 0px;
+    padding-top: 0px;
+    max-width: 320px;
+    margin: auto;
+  }
+  .thirdsection {
+    flex-direction: column;
+    max-width: 380px;
+    margin: 60px auto;
+  }
+  .thirdsectionleft {
+    padding-left: 0px;
+    padding-top: 0px;
+    max-width: 320px;
+    margin: auto;
+  }
+  .thirdsectionright {
+    width: 100%;
+    max-width: 340px;
+    margin: auto;
+  }
+  .thirdsectionright img{
+    width: 100%;
+  }
+  /* footer responsive design */
+  .footer_margin {
+    flex-direction: column;
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+  }
+  .fourthsection {
+    bottom: 920px;
+    position: absolute;
+    z-index: 1;
+    width: 80%;
+    padding: 10px;
+    
+    max-width: 390px;
+    margin: auto;
+   left: 8%;
+   /* right: 50%; */
+  }
+  .fourthsection h3 {
+    font-size: 20px;
+  }
+  .fourthsection button {
+    padding: 9px 30px 9px 30px;
+  }
+  .footerleft{
+    width: 100%;
+  }
+  footer{
+  width: 100%;
+  }
+  .footer_margin{
+    max-width: 350px;
+    width: 100%;
+  margin: auto;
+ 
+  }
+
+
+}
