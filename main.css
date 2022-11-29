@@ -216,6 +216,7 @@ footer {
   padding-left: 20px;
   padding-bottom: 20px;
   font-size: 14px;
+  color: white;
 }
 .location img {
   height: 23px;
@@ -267,15 +268,17 @@ footer {
 /* Media query styling for responsive design */
 /* header responsive styling */
 @media (min-width: 350px) and (max-width: 500px) {
-  
-
- header{
-  background-image: url(/huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-mobile.svg);
-  background-color: none;
- } 
+  header {
+    background-image: url(/huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-mobile.svg);
+    background-color: none;
+  }
   nav {
-    padding-left: 20px;
+    /* padding-left: 20px; */
     gap: 30px;
+    padding: 0px;
+    padding-top: 40px;
+    max-width: 330px;
+    margin: auto;
   }
   nav img {
     width: 130px;
@@ -295,6 +298,7 @@ footer {
     flex-direction: column;
     max-width: 380px;
     margin: auto;
+  
   }
   .headbody h3 {
     text-align: center;
@@ -304,6 +308,7 @@ footer {
   }
   .headbodyleft {
     padding-left: 0px;
+    padding-top: 80px;
   }
   .headbody p {
     text-align: center;
@@ -319,6 +324,8 @@ footer {
   }
   .headbodyright {
     width: 100%;
+    max-width: 360px;
+    margin: auto;
   }
   .headbodyright img {
     width: 100%;
@@ -330,7 +337,7 @@ footer {
   }
   .firstsection {
     flex-direction: column;
-    max-width: 380px;
+    max-width: 360px;
     margin: 60px auto;
   }
   .firstsectionleft {
@@ -350,7 +357,7 @@ footer {
   }
   .secondsection {
     flex-direction: column;
-    max-width: 380px;
+    max-width: 360px;
     margin: 60px auto;
   }
   .secondsectionleft {
@@ -366,13 +373,13 @@ footer {
   }
   .thirdsection {
     flex-direction: column;
-    max-width: 380px;
+    max-width: 360px;
     margin: 60px auto;
   }
   .thirdsectionleft {
     padding-left: 0px;
     padding-top: 0px;
-    max-width: 320px;
+    max-width: 310px;
     margin: auto;
   }
   .thirdsectionright {
@@ -380,7 +387,7 @@ footer {
     max-width: 340px;
     margin: auto;
   }
-  .thirdsectionright img{
+  .thirdsectionright img {
     width: 100%;
   }
   /* footer responsive design */
@@ -391,35 +398,35 @@ footer {
     margin: auto;
   }
   .fourthsection {
-    bottom: 920px;
+    bottom: 870px;
     position: absolute;
     z-index: 1;
     width: 80%;
     padding: 10px;
-    
     max-width: 390px;
     margin: auto;
-   left: 8%;
-   /* right: 50%; */
+    left: 8%;
+
+    /* right: 50%; */
   }
   .fourthsection h3 {
-    font-size: 20px;
+    font-size: 18px;
   }
   .fourthsection button {
     padding: 9px 30px 9px 30px;
   }
-  .footerleft{
+  .footerleft {
     width: 100%;
   }
-  footer{
-  width: 100%;
+  footer {
+    width: 100%;
   }
-  .footer_margin{
+  .footer_margin {
     max-width: 350px;
     width: 100%;
-  margin: auto;
- 
+    margin: auto;
   }
-
-
+  .location p {
+    width: 70%;
+  }
 }
