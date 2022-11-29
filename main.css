@@ -24,6 +24,10 @@ nav {
 .nav_button button {
   padding: 3px 30px 3px 30px;
 }
+.nav_button :hover{
+  cursor: pointer;
+  background-color: white;
+}
 
 .headbody {
   display: flex;
@@ -49,6 +53,10 @@ nav {
 }
 .button_get_started {
   width: 100%;
+}
+.button_get_started :hover{
+  cursor: pointer;
+  background-color: hsla(322, 100%, 66%, 0.582);
 }
 .headbodyleft button {
   background-color: hsl(322, 100%, 66%);
@@ -192,6 +200,10 @@ nav {
   border: none;
   padding: 17px 65px 17px 66px;
   border-radius: 30px;
+}
+.fourth_sty :hover{
+    cursor: pointer;
+    background-color: hsla(322, 100%, 66%, 0.582);
 }
 /* Footer styling*/
 footer {
