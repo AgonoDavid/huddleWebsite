@@ -36,10 +36,7 @@ nav {
   display: flex;
   /* gap: 30px; */
 }
-button .ht:hover {
-  cursor: pointer;
-  background-color: white;
-}
+
 .ht a:hover {
   cursor: pointer;
   background-color: hsl(192, 100%, 9%);
