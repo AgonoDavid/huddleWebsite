@@ -27,9 +27,7 @@
       }
     </style>
 
-    <link rel="stylesheet" href="main.css" />
-    <!-- CSS only -->
-    <!-- CSS only -->
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <section class="main-container">
@@ -42,7 +40,18 @@
           /></a>
           <form role="search">
             <div class="nav_button">
-              <button type="submit" style="background-color: hsl(192, 100%, 9%); border: none; color: white; border-radius: 20px; padding:  5px 20px;">Try it free</button>
+              <button
+                type="submit"
+                style="
+                  background-color: hsl(192, 100%, 9%);
+                  border: none;
+                  color: white;
+                  border-radius: 20px;
+                  padding: 5px 20px;
+                "
+              >
+                <a href="#button__"> Try it free</a>
+              </button>
             </div>
           </form>
         </nav>
@@ -124,11 +133,66 @@
         </div>
       </div>
     </main>
+
     <footer>
       <div class="footer_margin">
+        <div class="form hidden">
+          <button class="close-modal">&times;</button>
+          <form action="">
+            <label for="Name"
+              >FirstName<input
+                type="text"
+                name=""
+                placeholder="fisrtname"
+                id=""
+            /></label>
+            <br />
+            <label for="Name"
+              >LastName<input type="text" name="" placeholder="lastname" id=""
+            /></label>
+            <br />
+            <label for=""
+              >Telephone<input
+                type="text"
+                name=""
+                placeholder="Telephone"
+                id=""
+            /></label>
+            <br />
+            <label for=""
+              >Email<input
+                type="email"
+                name=""
+                placeholder="Email Address"
+                id=""
+            /></label>
+            <div class="psd">
+              <label for=""
+                >Password<input type="password" name="" id="pass"
+              /></label>
+              <i
+                ><input type="checkbox" class="checkbox" />
+                <button class="check_button">Show</button></i
+              >
+            </div>
+          </form>
+          <div class="submit"><button>Submit</button></div>
+        </div>
+        <div>
+          <div class="successful hidden">
+            <img
+              src="/huddle-landing-page-with-alternating-feature-blocks-master/images/icons8-double-tick-96.png
+            "
+              alt=""
+            />
+            <p>Successful</p>
+          </div>
+        </div>
         <div class="fourthsection">
           <h3>Ready To Build Your Community?</h3>
-         <div class="fourth_sty"> <button>Get Started For Free</button></div>
+          <div class="fourth_sty">
+            <button id="button__" class="button">Get Started For Free</button>
+          </div>
         </div>
         <div class="footerleft">
           <div class="footerlogo">
@@ -153,16 +217,14 @@
                   src="/huddle-landing-page-with-alternating-feature-blocks-master/images/icon-phone.svg"
                   alt=""
                 />
-                <p style="color:white ;">+1-543-123-4567</p>
+                <p style="color: white">+1-543-123-4567</p>
               </div>
               <div class="mail" style="display: flex">
                 <img
                   src="/huddle-landing-page-with-alternating-feature-blocks-master/images/icon-email.svg"
                   alt=""
                 />
-                <p style="color: white;" >
-                  example@huddle.com
-                </p>
+                <p style="color: white">example@huddle.com</p>
               </div>
             </div>
           </div>
@@ -178,7 +240,7 @@
           </div>
         </div>
         <div class="footersecondsection">
-          <p style="color:white">About Us</p>
+          <p style="color: white">About Us</p>
           <p style="color: white">What We Do</p>
           <p style="color: white">FAQ</p>
         </div>
@@ -207,5 +269,6 @@
       </div>
     </footer>
     <!-- JavaScript Bundle with Popper -->
+    <script src="script.js"></script>
   </body>
 </html>
