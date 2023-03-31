@@ -11,6 +11,8 @@ const showpassword = document.querySelector(".eye");
 
 const toggle = document.querySelector(".checkbox");
 
+const logoreload = document.querySelector(".homereload");
+
 clickbutton.addEventListener("click", function () {
   form.classList.remove("hidden");
 });
@@ -26,8 +28,10 @@ submit.addEventListener("click", function () {
 
 completed.addEventListener("click", function () {
   completed.classList.add("hidden");
+  location.reload();
 });
 
+//if else
 toggle.addEventListener("click", function () {
   if (password.type === "password") {
     password.type = "text";
@@ -36,8 +40,13 @@ toggle.addEventListener("click", function () {
   }
 });
 
+//tenary operator
 // toggle.addEventListener("click", function () {
 //   password.type === "password"
 //     ? (password.type = "text")
 //     : (password.type = "password");
 // });
+
+logoreload.addEventListener("click", function () {
+  location.reload();
+});

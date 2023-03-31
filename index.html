@@ -30,17 +30,19 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <section class="main-container">
+    <section class="main-container" id="footer-logo">
       <header>
         <nav>
-          <a class="navbar-brand" href="#"
+          <a class="navbar-brand"
             ><img
+              class="homereload"
               src="/huddle-landing-page-with-alternating-feature-blocks-master/images/logo.svg"
               alt=""
           /></a>
           <form role="search">
             <div class="nav_button">
               <button
+                class="ht"
                 type="submit"
                 style="
                   background-color: hsl(192, 100%, 9%);
@@ -143,12 +145,12 @@
               >FirstName<input
                 type="text"
                 name=""
-                placeholder="fisrtname"
+                placeholder="Fisrtname"
                 id=""
             /></label>
             <br />
             <label for="Name"
-              >LastName<input type="text" name="" placeholder="lastname" id=""
+              >LastName<input type="text" name="" placeholder="Lastname" id=""
             /></label>
             <br />
             <label for=""
@@ -159,16 +161,13 @@
                 id=""
             /></label>
             <br />
-            <label for=""
-              >Email<input
-                type="email"
-                name=""
-                placeholder="Email Address"
-                id=""
-            /></label>
             <div class="psd">
               <label for=""
-                >Password<input type="password" name="" id="pass"
+                >Password<input
+                  placeholder="Password"
+                  type="password"
+                  name=""
+                  id="pass"
               /></label>
               <i><input type="checkbox" class="checkbox" /> </i>
             </div>
@@ -193,10 +192,13 @@
         </div>
         <div class="footerleft">
           <div class="footerlogo">
-            <img
-              src="/huddle-landing-page-with-alternating-feature-blocks-master/images/logo copy.svg"
-              alt=""
-            />
+            <div>
+              <a href="#footer-logo"></a>
+              <img
+                src="/huddle-landing-page-with-alternating-feature-blocks-master/images/logo copy.svg"
+                alt=""
+              />
+            </div>
             <div class="mobile_style_footer_content">
               <div class="location" style="display: flex">
                 <img
